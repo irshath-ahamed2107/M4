@@ -10,8 +10,10 @@ To write a C Program to perform the basic left shift operation for 44 integer nu
 5.	Stop the program.
 
 ## PROGRAM
+![Screenshot 2025-04-26 100547](https://github.com/user-attachments/assets/760564cf-c2ac-44a5-971d-30a3eae6b18f)
 
 ## OUTPUT
+![Screenshot 2025-04-26 100552](https://github.com/user-attachments/assets/af5cdc2e-35fe-4104-b3e7-ef5c99bd31d3)
 
 
 
@@ -47,9 +49,11 @@ Write a C Program to check whether the two numbers are equal or not using simple
 5.	Stop the program.
 
 ## PROGRAM
+![Screenshot 2025-04-26 100910](https://github.com/user-attachments/assets/05403bdf-031e-4257-9f82-f0504829d244)
 
 
 ## OUTPUT
+![Screenshot 2025-04-26 100914](https://github.com/user-attachments/assets/e10b84fd-9edb-49f2-bd64-6a45e55e233a)
            
 ## RESULT
 
@@ -70,8 +74,10 @@ Write a C Program to convert the given string into lowercase.
 5.	Stop the program.
 
 ## PROGRAM
+![Screenshot 2025-04-26 101258](https://github.com/user-attachments/assets/f08a7244-9fcb-474a-a713-dfb840bf1b70)
 
 ## OUTPUT
+![Screenshot 2025-04-26 101302](https://github.com/user-attachments/assets/9e71359f-3edc-481a-ab63-7d4d645d0c8f)
 
 
 
@@ -95,8 +101,10 @@ Write a C Program to count the total number of words in a given string using do 
 6.	Stop the program.
 
 ## PROGRAM
+![Screenshot 2025-04-26 101731](https://github.com/user-attachments/assets/76512777-3c9e-473f-a948-030c1f1f40d4)
 
 ## OUTPUT
+![Screenshot 2025-04-26 101736](https://github.com/user-attachments/assets/666ad87b-d79b-4e38-92fb-b9920b741d3a)
 
 
 
@@ -129,10 +137,12 @@ Step 7: After the loop, check the value of flag:
 Step 8: End the program.
 
 ## PROGRAM
+![Screenshot 2025-04-26 102135](https://github.com/user-attachments/assets/14d38f2a-d44c-4016-8d67-0dcf69751eb6)
 
 
 ## OUTPUT
- 
+ ![Screenshot 2025-04-26 102138](https://github.com/user-attachments/assets/d9c57bbf-2c07-4cd0-bc01-b81d1e4d0dd5)
+
 
 ## RESULT
 Thus the C Program to compare two strings without using strcmp() has been executed successfully.
