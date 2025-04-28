@@ -10,11 +10,18 @@ To write a C Program to perform the basic left shift operation for 44 integer nu
 5.	Stop the program.
 
 ## PROGRAM
-![Screenshot 2025-04-26 100547](https://github.com/user-attachments/assets/760564cf-c2ac-44a5-971d-30a3eae6b18f)
-
+~~~
+#include <stdio.h>
+int main() {
+    unsigned int a=44 ;	
+      int c = 0; 
+    c = a << 3;    
+   printf("After Left Shift Operation value of a is:%d\n", c );
+}
+~~~
 ## OUTPUT
-![Screenshot 2025-04-26 100552](https://github.com/user-attachments/assets/af5cdc2e-35fe-4104-b3e7-ef5c99bd31d3)
 
+![437957047-b4922d15-8371-4022-a425-5618ac563b71](https://github.com/user-attachments/assets/abd44cbd-6aec-4baa-bdd8-f5898a3fc51d)
 
 
 
@@ -49,12 +56,27 @@ Write a C Program to check whether the two numbers are equal or not using simple
 5.	Stop the program.
 
 ## PROGRAM
-![Screenshot 2025-04-26 100910](https://github.com/user-attachments/assets/05403bdf-031e-4257-9f82-f0504829d244)
+~~~
+# include <stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d %d",&a,&b);
+    if(a==b)
+    {
+        printf("Numbers are Equal");
+    }
+    else
+    {
+        printf("Numbers are not Equal");
+    }
+    return 0;
+}
 
-
+~~~
 ## OUTPUT
-![Screenshot 2025-04-26 100914](https://github.com/user-attachments/assets/e10b84fd-9edb-49f2-bd64-6a45e55e233a)
-           
+![437957841-6c83b4c0-07c1-47a6-82d0-d1ced9c56fe0](https://github.com/user-attachments/assets/f3946248-44db-4d57-a2c5-e497e5c7adc1)
+
 ## RESULT
 
 Thus the program to check whether the two numbers are equal or not using simple if statement has been executed successfully
@@ -74,10 +96,23 @@ Write a C Program to convert the given string into lowercase.
 5.	Stop the program.
 
 ## PROGRAM
-![Screenshot 2025-04-26 101258](https://github.com/user-attachments/assets/f08a7244-9fcb-474a-a713-dfb840bf1b70)
-
+~~~
+#include<stdio.h>
+#include<ctype.h>
+#include<string.h>
+int main()
+{
+    char str[100];
+    scanf("%s",str);
+    printf("Lower case String is:");
+    for(int i=0;i<strlen(str);i++)
+    {
+        printf("%c",tolower(str[i]));
+    }
+}
+~~~
 ## OUTPUT
-![Screenshot 2025-04-26 101302](https://github.com/user-attachments/assets/9e71359f-3edc-481a-ab63-7d4d645d0c8f)
+![437957189-2a6e93da-054b-468f-bf48-b2c2b00c9039](https://github.com/user-attachments/assets/bef31e18-822c-4d2c-953b-1ef7bcba6f5b)
 
 
 
@@ -101,10 +136,28 @@ Write a C Program to count the total number of words in a given string using do 
 6.	Stop the program.
 
 ## PROGRAM
-![Screenshot 2025-04-26 101731](https://github.com/user-attachments/assets/76512777-3c9e-473f-a948-030c1f1f40d4)
-
+~~~
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+int main()
+{
+    char str[1000];
+    int i=0,count=0;
+    scanf("%[^\n]s",str);
+   do
+   {
+       if((str[i]!=' ' && str[i]!= '\t'&& str[i]!='\0') && (str[i+1]== ' ' || str[i+1]== '\t' || str[i+1]=='\0'))
+       {
+           count++;
+       }
+       i++;
+   }while(str[i]!='\0');
+   printf("%d\n",count);
+}
+~~~
 ## OUTPUT
-![Screenshot 2025-04-26 101736](https://github.com/user-attachments/assets/666ad87b-d79b-4e38-92fb-b9920b741d3a)
+![437957348-5a3e8f62-4dc6-41ff-b332-6fc27c6eb879](https://github.com/user-attachments/assets/2e87a5d9-29a9-44d1-943a-69415b10aa75)
 
 
 
@@ -137,11 +190,36 @@ Step 7: After the loop, check the value of flag:
 Step 8: End the program.
 
 ## PROGRAM
-![Screenshot 2025-04-26 102135](https://github.com/user-attachments/assets/14d38f2a-d44c-4016-8d67-0dcf69751eb6)
-
-
+~~~
+# include <stdio.h>
+int main()
+{
+    char str1[100],str2[100];
+    int i=0,str=1;
+    scanf("%s",str1);
+    scanf("%s",str2);
+    while(str1[i]!='\0' || str2[i] != '\0')
+    {
+        if(str1[i]!=str2[i])
+        {
+            str=0;
+            break;
+        }
+        i++;
+    }
+    if(str)
+    {
+        printf("strings are same\n");
+    }
+    else
+    {
+        printf("strings are not same\n");
+    }
+    return 0;
+}
+~~~
 ## OUTPUT
- ![Screenshot 2025-04-26 102138](https://github.com/user-attachments/assets/d9c57bbf-2c07-4cd0-bc01-b81d1e4d0dd5)
+![437957612-33673906-723e-47dc-bfe0-910b1dec38d7](https://github.com/user-attachments/assets/39b6c9e1-a2c2-4c62-b1b1-eb62483cb90a)
 
 
 ## RESULT
